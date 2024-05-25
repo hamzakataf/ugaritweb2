@@ -108,3 +108,21 @@
     
 })(jQuery);
 
+
+
+document.getElementById('studied').addEventListener('change', function() {
+    // إذا كان الجواب "نعم"، أظهر السؤال الثاني
+    if (this.value === '1') {
+      document.getElementById('schoolQuestion').style.display = 'block';
+      document.getElementById('lastcertficate').style.display = 'block';
+    } else {
+      // إذا كان الجواب "لا"، أخف السؤال الثاني
+      document.getElementById('schoolQuestion').style.display = 'none';
+      document.getElementById('lastcertficate').style.display = 'none';
+
+    }
+  });
+  
+
+
+// to not send form

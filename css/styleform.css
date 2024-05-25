@@ -1,0 +1,17 @@
+/* import font from google */
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Reem+Kufi:wght@400..700&display=swap');
+
+/* ************* */
+
+
+
+
+/********** Template CSS **********/
+:root {
+    --primary: #d6593a;
+    --light: #005ba8;
+    --dark: #000000;
+}
+
+
