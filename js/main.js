@@ -125,4 +125,24 @@ document.getElementById('studied').addEventListener('change', function() {
   
 
 
-// to not send form
+// dont send empty
+$("#loginForm").submit(function () {
+    if ($.trim($("#uid").val()) === "" || $.trim($("#pass").val()) === "") {
+        alert("يرجى إدخال اسم المستخدم وكلمة المرور");
+        return false;
+    }
+});
+document.getElementById('close').addEventListener('click', function close() {
+            document.getElementById('close').style.display = 'none';
+
+    
+
+    
+})
+document.getElementById('close2').addEventListener('click', function close() {
+    document.getElementById('close2').style.display = 'none';
+
+
+
+
+})

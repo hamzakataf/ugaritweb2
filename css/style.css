@@ -3,7 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Reem+Kufi:wght@400..700&display=swap');
 
 /* ************* */
+/* arabic font*/
+.arabicfont{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 
+}
+/* ---------------------- */
 
 
 
@@ -471,6 +479,10 @@
 
 .border-input{
   border-radius: 140px;
+  border-top-left-radius: 140px;
+  /* border-top-right-radius: 17em;
+    border-bottom-right-radius: 9em; */
+  
 }
 
 /* End Footer */
@@ -496,14 +508,6 @@ body{
 }
 
 
-/* arabic font*/
-.arabicfont{
-    font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-
-}
 
 .nocolor{
     
